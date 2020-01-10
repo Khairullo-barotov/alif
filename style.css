@@ -1,0 +1,70 @@
+body {
+	background-image: url(images/bg.png);
+}
+#calculator {
+	margin-top: 120px;
+}
+#calculator table {
+	border-radius: 30px 30px 5px 5px;
+	margin: 0 auto;
+	border: 1px solid silver;
+	background: #E6E6E6;
+}
+input[type=button] {
+	width: 70px;
+	height: 50px;
+	background: #E1E1E1;
+	border:none;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 2px 0;
+	border: 1px solid silver;
+}
+input[type=text] {
+	border:none;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 1px;
+	width: 272px;
+	height: 20px;
+	background: #fff;
+	box-sizing: content-box;
+}
+input[name=Один], input[name=Два], input[name=Три], input[name=Четыре], input[name=Пять], input[name=Шесть], input[name=Семь], input[name=Восемь], input[name=Девять], input[name=Ноль] {
+	background: #f1e7e7;
+}
+input[name=Один]:hover, input[name=Два]:hover, input[name=Три]:hover, input[name=Четыре]:hover, input[name=Пять]:hover, input[name=Шесть]:hover, input[name=Семь]:hover, input[name=Восемь]:hover, input[name=Девять]:hover, input[name=Ноль]:hover {
+	background: #fff;
+}
+input[name=Плюс], input[name=Минус], input[name=Умножение], input[name=Деление] {
+	background: #F0F0F0;
+}
+input[name=Плюс]:hover, input[name=Минус]:hover, input[name=Умножение]:hover, input[name=Деление]:hover {
+	background: #D3DDD0;
+	border:2px solid silver;
+	box-sizing: border-box;
+}
+input[name=Равно] {
+	background: #8ABAE0;
+}
+input[name=Равно]:hover {
+	background: #5B61DD;
+	border: 2px solid blue;
+	box-sizing: border-box;
+}
+input[name=Очистить] {
+	background: #DD7A71;
+}
+input[name=Очистить]:hover {
+	background: #DD6057;
+	border: 2px solid red;
+}
+#info h2 {
+	text-align: center;
+	margin: 0;
+}
+#info p {
+	margin: 0;
+	font-size: 14px;
+}

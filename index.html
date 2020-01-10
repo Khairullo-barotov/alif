@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Калькулятор</title>
+</head>
+<body>
+	<form name="calc" id="calculator">
+		<table>
+		<tr id="info">
+			<td>
+				<h2>Khairullo Barotov</h2>
+				<p>Эл.почта: <a href="khaliljane8@gmail.com">khaliljane8@gmail.com</a></p>
+				<p>Моб: (+992) 907 70 24 66,  (+992) 987 76 30 44</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="input" id="display" placeholder="0">
+			</td>
+		</tr>
+		<tr id="buttons">
+			<td>
+				<input type="button" name="Один" value="1" onclick="calc.input.value += '1'">
+				<input type="button" name="Два" value="2" onclick="calc.input.value += '2'">
+				<input type="button" name="Три" value="3" onclick="calc.input.value += '3'">
+				<input type="button" name="Плюс" value="+" onclick="calc.input.value += '+'">
+				<br>
+				<input type="button" name="Четыре" value="4" onclick="calc.input.value += '4'">
+				<input type="button" name="Пять" value="5" onclick="calc.input.value += '5'">
+				<input type="button" name="Шесть" value="6" onclick="calc.input.value += '6'">
+				<input type="button" name="Минус" value="-" onclick="calc.input.value += '-'">
+				<br>
+				<input type="button" name="Семь" value="7" onclick="calc.input.value += '7'">
+				<input type="button" name="Восемь" value="8" onclick="calc.input.value += '8'">
+				<input type="button" name="Девять" value="9" onclick="calc.input.value += '9'">
+				<input type="button" name="Умножение" value="*" onclick="calc.input.value += '*'">
+				<br>
+				<input type="button" name="Очистить" value="C" onclick="calc.input.value = ''">
+				<input type="button" name="Ноль" value="0" onclick="calc.input.value += '0'">
+				<input type="button" name="Равно" value="=" onclick="calc.input.value = eval(calc.input.value)">
+				<input type="button" name="Деление" value="/" onclick="calc.input.value += '/'">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Чтобы скачать архив нажмите: <a href="calculator.rar">Скачать</a></p>
+			</td>
+		</tr>
+		</table>
+	</form>
+	
+
+</body>
+</html>
